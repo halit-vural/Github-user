@@ -47,6 +47,40 @@ you will see the url will change in the address bar when you click
 you can also shift select by dragging from one number to another line number
 if you click on the elipsis appeared on the left, you can refer to that part of the code
 
+6
+MARKDOWN FORMATTING
+keyboard tags shows the keys for keypress with a good visualizations
+you just put tags in your text, it is converted to a small image of key 
+example. <kbd>ALT</kbd> + <kbd>F4</kbd>
+
+hex codes are visualized by GitHub ex. '#C6E48B' will be converted to colors
+
+'''diff  will visualize diff in your text if you start your content with it <9:00>
+ex. 
+'''diff
+= this was removed
++ this was added
+
+if you want to summarize the long code snippets, you can add html code to the begining
+like
+<details>
+<summary>Click here to see the code history </summary>
+
+then it will change the format of your codes and hide them to summarize <9:30>
+
+
+7
+URL MAGICS      <9:50>
+you can ingest a user avatar with a url link of that user's homepage
+ex. https://github.com/<username>.png
+
+
+8
+AUTOMATIC BRANCHES DELETION         <11:00>
+goto Settings of your repository (right up)
+goto Merge settings down
+check "Automatically delete head branches
+
 
 
 
