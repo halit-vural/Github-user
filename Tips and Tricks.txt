@@ -1,0 +1,21 @@
+Credits: CoderDave
+Ref: https://www.youtube.com/watch?v=sGnqVAfnZ6U
+
+
+
+Use GitHub like a PRO! - 8 secrets, tips and tricks
+
+FUZZY FINDER
+file finder
+press t on any GitHub page
+arrows to move between the results
+
+OCTOTREE
+browse files using a tree structure
+install OCTOTREE
+see extension on left side of GitHub pages
+
+
+
+
+
