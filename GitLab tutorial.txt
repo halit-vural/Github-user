@@ -1,0 +1,52 @@
+		GitLab in 3 hours
+
+ref:
+https://www.youtube.com/watch?v=8aV5AxJrHDg&t=2267s
+
+
+Basic git commands
+Terminal
+  git --version
+  git init
+		new empty repo
+  git init repo-name-here
+  cd repo-name
+  git config --global init.defaultBranch main
+		set up default branch
+  git branch -m main
+  git status
+		shows the history
+  
+
+''main branch is not used for mid process. it is dangerous. the way is to make a branch for development and do the tests after code. if the tests pass, then you can merge the branch to main. later, you can delete the branch.''
+
+  git add <file-name>
+		starts tracking the file for changes. otherwise changes will not be recorded.
+		working dir (add)-> staging (commit)-> repository
+  git rm --chached <file>...
+		unstages the file
+  git commit -m "my message about commit"
+  git config --global user.name "hvbosna"
+		git asks the credential
+  git config --global user.email "bosna.halit@gmail.com"
+  git log
+		list of all commits until now
+		(HEAD -> main)  check-out point
+
+Making a separate branch
+  git branch <branch-name>
+		new branch is added, but we are still in main branch
+  git checkout <branch-name>
+  git status
+		no commits in empty branch
+  git log
+		HEAD -> <branch>
+
+
+
+
+
+  
+
+
+
