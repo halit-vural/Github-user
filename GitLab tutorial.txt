@@ -3,9 +3,9 @@
 ref:
 https://www.youtube.com/watch?v=8aV5AxJrHDg&t=2267s
 
-
+------  GIT -------
 Basic git commands
-Terminal
+In Terminal
   git --version
   git init
 		new empty repo
@@ -49,6 +49,54 @@ Merge
 		give all commits
 		summarize them in one line each
   git branch -d <branch>
+
+Stash
+It works similar to commit but the changes are not seen publicly on the branch. They kept locally.
+
+  git stash push
+		the changes are not seen in working directory. they are kept hidden in local
+  git stash apply
+		it will reapply the changes to working directory
+		it will not remove changes from stash
+  git stash pop
+		it will remove the changes from the list
+  git stash list
+		shows the change ref in stash
+
+----- GITLAB --------
+Introduction
+	Group
+		manage settings accross multiple projects
+		categorize multiple users or projects
+		provide cross-project view (issues, merge requests)
+	Project
+		it is a container for a git repo
+		built-in CI/CD
+		issue tracking
+		collaboration tools (merge req)
+	Members
+		users or groups
+		members are assigned to roles
+		roles include permissions to actions on projects or groups
+
+	Merge Requests
+		a request to merge one branch into another
+		they provide a space to have a conversation with the team about the changes on a branch
+		it is the central place through which changes are reviewed and verified
+
+	Issue
+		a way to track work related to project
+		bug reports, track tasks, request new features, ask questions etc.
+		development begins with defining a new issue
+
+
+
+
+
+
+
+Interface
+
 
   
 
