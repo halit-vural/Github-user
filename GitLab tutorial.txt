@@ -97,9 +97,53 @@ Introduction
 
 Interface
 
-
+	Projects dashboard
+	   top-right
+		account mgt
+		tasks
+		issues
+		merge requests
   
 
+	   top-left
+		menu
+		  dasbboard list
+
+Profile
+	edit profile
+	  access tokens
+		personal tokens relate to your account
+	  SSH Keys
+		we would add public key for gitlab account. therefore gitlab client can access
+
+
+Access Token - Define
+in Terminal
+  generate a key
+	>ssh-keygen -t ed25519 -C "GitLab Key Pair"
+	use default folder to find easily later
+		ed25519 is better than RSA
+		-C for comment
+	passphrase leave empty
+
+  add the generated public key to GitLab profile
+	>cat ~/.ssh/<key-file>
+	copy the output
+	in GitLab interface
+	  profile > preferences
+	  SSH Keys > paste into box
+		> give a title "GitLab Key Pair"
+	  push "Add Key" button
+  verify in client (in Terminal)
+	ssh -T git@gitlab.com
+		'Welcome to GitLab @uname'
+
+
+Groups
+	
+	
+
+	
 
 
 
